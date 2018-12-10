@@ -21,6 +21,6 @@ if __name__ == "__main__":
     subjectname = sys.argv[2]
     contents = sys.argv[3]
     username = 'xmht'
-    password = 'J8ghOP'
+    password = ''
     send_sms(phone,subjectname,contents,username,password)
 
