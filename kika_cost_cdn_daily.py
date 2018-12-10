@@ -11,7 +11,7 @@ now = datetime.datetime.utcnow()
 start = (now - datetime.timedelta(days=args.days)).strftime('%Y-%m-%d')
 end = now.strftime('%Y-%m-%d')
 
-cd = boto3.client('ce', region_name='us-east-1', aws_access_key_id='AKIAVP3ZFYSBWMS3VBD3', aws_secret_access_key='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')
+cd = boto3.client('ce', region_name='us-east-1', aws_access_key_id='', aws_secret_access_key='')
 
 def CostUsage():
     results = []
